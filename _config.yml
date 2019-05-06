@@ -1,28 +1,28 @@
 # general configuration
 url: http://petecheng.github.io
 baseurl: ''
-
-# compass configuration
-compass:
+navi: ''
+configs:
   # an avatar or logo (optional)
-  logo: "/images/pete.png"
+  logo: "/images/pete.jpg"
   # author will appear under the avatar (optional)
-  author: "Ziqiang Cheng"
+  # author: "Ziqiang Cheng"
+  title: "Ziqiang Cheng"
   # tagline will appear under the title (optional)
   tagline: "程 自强<br> petecheng@zju.edu.cn <br> Was mich nicht umbringt, macht mich stärker."
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
-  include_content: true
+  # include_content: true
   # if include_analytics is true, the content of the analytics.html include will
   # be added at the end of the <head> section. You can add your Google Analytics
   # Tracking Code to that file.
-  include_analytics: false
+  include_analytics: True
   # Twitter @username (as defined by the Twitter Card specs)
   twitter: "ZiqiangZJU"
 
 # exclude
-exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
-
+#exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["CNAME", "LICENSE", "README.md"]
 # Dependencies
 markdown: kramdown
 highlighter: rouge

@@ -5,34 +5,90 @@ title: Ziqiang Cheng (程自强)
 
 <main>
         <h2>About Me</h2>
-        <p>I am currently a master student of <a href="http://www.zju.edu.cn">Zhejiang University</a>, majoring in <a href="http://www.cs.zju.edu.cn/">Computer Science and Technology</a>. I am a research assistant co-advised by <a href="http://yangy.org">Yang Yang</a> and <a href="https://person.zju.edu.cn/en/yzhuang">Yueting Zhuang</a> in <a href="http://www.dcd.zju.edu.cn">Digital media Computing & Design (DCD) Lab</a>. I also fortunately have <a href="https://www.chenhaot.com">Chenhao Tan</a> from <a href="http://www.colorado.edu/">University of Colorado Boulder</a> as my external advisor.
-        
-        <br><br>
+        <p>I am now a R&D engineer <a href="https://www.bytedance.com/en/">@ByteDance</a> located at Beijing, focusing on <b>Search Advertising</b>. 
+            I obtained my M.Sc degree from <a href="http://www.zju.edu.cn">Zhejiang University</a> in 2020, co-advised by <a href="http://yangy.org">Yang Yang</a> and <a href="https://person.zju.edu.cn/en/yzhuang">Yueting Zhuang</a>. 
+            During my master career, I also fortunately have worked with <a href="https://www.chenhaot.com">Chenhao Tan</a> at the <a href="https://www.uchicago.edu">University of Chicago</a>.
+        <p>
+        	<b>Updated (May, 2021):</b> Our paper "Time2Grpah+: Bridging Time Series and Graph Representation Learning via Multiple Attentions" has been accepted as a regular paper by TKDE.
+        </p>
+
+        <p>
+            <b>Updated (April, 2021):</b> Our paper "How Powerful are Interest Diffusion on Purchasing Prediction: A Case Study of Taocode" has been accepted by SIGIR'2021.
+        </p>
+
         My research focuses on computational social science and time series modeling:
         <ul>
-            <li> <b>Team composition in online gaming</b>: Team composition is a central factor in determining the effectiveness of a team. To explore the intristic properties of compositions in the real-world teams, we present a large-scale study on the effect of team composition on multiple measures (performance, tenacity and rapport) of team effectiveness based on a dataset from Honor of Kings, the largest multiplayer online battle arena (MOBA) game. Our results confirm the importance of team diversity with respect to player roles, and also contributes to the situation vs. personality debate in the literature.(<a href="/publications/www19-137.pdf">Ziqiang et al., WWW'19</a>)</li>
+            <li> <b>Team composition in online gaming</b>: Team composition is a central factor in determining the effectiveness of a team. To explore the intristic properties of compositions in the real-world teams, we present a large-scale study on the effect of team composition on multiple measures (performance, tenacity and rapport) of team effectiveness based on a dataset from Honor of Kings, the largest multiplayer online battle arena (MOBA) game. Our results confirm the importance of team diversity with respect to player roles, and also contributes to the situation vs. personality debate in the literature.(<a href="/publications/www19-137.pdf">Cheng et al., The Web Conf'2019</a>)</li>
+
+            <li> <b>Time series modeling from the perspective of graphs</b>: 
+            	Time series modeling has attracted extensive research efforts; however, achieving both reliable efficiency and interpretability from a unified model still remains a challenging problem. 
+
+            	Our recent work proposes to model time series from the perspective of graphs. More specifically, we aim to capture the intrinsic factors and their transitions behind the time series, and describe how these factors affect the time series evolution. To achieve this, we respectively propose the shapelet based method (Time2Graph, <a href="https://aaai.org/ojs/index.php/AAAI/article/view/5769">Cheng et al., AAAI'2020</a>, [<a href="https://petecheng.github.io/Time2Graph">Project Homepage</a>][<a href="publications/aaai20-6418.pdf">Paper</a>][<a href="https://github.com/petecheng/Time2Graph">Code</a>]) and a dynamic graph neural network based model (EvoNet, Wenjie et al., WSDM'2021, [<a href="publications/evonet_wsdm21.pdf">PDF</a>][<a href="https://github.com/VachelHU/EvoNet">Code</a>]). Our proposed methods not only achieves clear improvements comparing with state-of-the-art baselines in many tasks, but also provide valuable insights towards explaining the results of prediction results.
+            	Besides, Our work has been applied in real-world scenarios, such as network traffic anomaly monitor, as a common service of Alicloud, collaborated with Alibaba.</li>
+
+            <li><b>Electricity-theft detection in State Grid</b>:
+            	Electricity theft indicates the behavior that involves users conducting illegal operations on electrical meters to avoid individual electricity bills. To explore the patterns of electricity theft hidden in the large-scale users, we conduct a deep study on the multi-source data: in addition to users’ electricity usage records, we analyze user behaviors by means of regional factors (non-technical loss) and climatic factors (temperature) in the corresponding transformer area. Our results unearth several interesting patterns, and motivated by those empirical observations, a novel hierarchical framework is designed for identifying electricity thieves.(<a href="publications/HEBR_WWW20.pdf">Hu, et al., The Web Conf'2020</a>)[<a href="publications/theft_www_talk_v1.1.pptx">Slides</a>]
+                [<a href="https://github.com/zjunet/HEBR">Code</a>]
+            </li>
         </ul>
    
         
     <h2>Publications</h2>
     <ul>
-       Ziqiang Cheng,<b> Yang Yang</b>, Chenhao Tan, Denny Cheng, Alex Cheng, and Yueting Zhuang.  
+        <li><b>Ziqiang Cheng</b>, <a href="http://yangy.org">Yang Yang</a>, Shuo Jiang, Wenjie Hu, Yingchi Zhang and Ziwei Chai.  
+            Time2Grpah+: Bridging Time Series and Graph Representation Learning via Multiple Attentions.
+            In <i>IEEE Transactions on Knowledge and Data Engineering</i> (TKDE), 2021.
+            [PDF and Code will be available soon]
+        </li>
+
+        <li>Xuanwen Huang, <a href="http://yangy.org">Yang Yang</a>, <b>Ziqiang Cheng</b>, Fan Shen, Zhongyao Wang, Juren Li, Jun Zhang and Jingmin Chen.  
+            How Powerful are Interest Diffusion on Purchasing Prediction: A Case Study of Taocode.
+            In <i> Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval</i>
+            (<a href="https://sigir.org/sigir2021/">SIGIR'2021</a>), 2021.
+            [PDF and Code will be available soon]
+        </li>
+
+       <li><b>Ziqiang Cheng</b>, <a href="http://yangy.org">Yang Yang</a>, Chenhao Tan, Denny Cheng, Alex Cheng, and Yueting Zhuang.  
         What Makes a Good Team? A Large-scale Study on the Effect of Team Composition in Honor of Kings. 
         In <i> Proceedings of the Twenty-Eighth World Wide Web Conference</i>
-            (<a href="https://www2019.thewebconf.org/">WWW'19</a>, short paper), 2019.
+            (<a href="https://www2019.thewebconf.org/">The Web Conf'2019</a>, short paper), 2019.
             [<a href="publications/www19-137.pdf">PDF</a>]
-            [<a href="https://arxiv.org/abs/1902.06432">long version on arXiv</a>]
+            [<a href="https://arxiv.org/abs/1902.06432">A long version on arXiv</a>]
+        </li>
+        <li><b>Ziqiang Cheng</b>, <a href="http://yangy.org">Yang Yang</a>, Wei Wang, Wenjie Hu, Yueting Zhuang and Guojie Song.  
+        Time2Graph: Revisisting Time Series Modeling with Dynamic Shapelets. 
+        In <i> Proceedings of Association for the Advancement of Artificial Intelligence</i>
+            (<a href="https://aaai.org/Conferences/AAAI-20/">AAAI'2020</a>, poster), 2020.
+            [<a href="publications/aaai20-6418.pdf">PDF</a>]
+            [<a href="https://arxiv.org/abs/1911.04143">A long version on arXiv</a>]
+        </li>
+
+        <li>Wenjie Hu, <a href="http://yangy.org">Yang Yang</a>, <b>Ziqiang Cheng</b>, Carl Yang and Ren Xiang.  
+        Time-Series Event Prediction with Evolutionary State Graph.
+        <i>The 14th International Conference on Web Search and Data Mining</i>
+            (<a href="http://www.wsdm-conference.org/2021/">WSDM'2021</a>, oral), 2021.
+            [<a href="publications/evonet_wsdm21.pdf">PDF</a>]
+            [<a href="https://arxiv.org/abs/1905.05006">A long version on arXiv</a>]
+        </li>
+
+        <li>Wenjie Hu, <a href="http://yangy.org">Yang Yang</a>, Jianbo Wang, Xuanwen Huang and <b>Ziqiang Cheng</b>. 
+        	Understanding Electricity-Theft Behavior via Multi-Source Data.
+        In <i> Proceedings of the Twenty-Ninth World Wide Web Conference</i>
+            (<a href="https://www2020.thewebconf.org">The Web Conf'2020</a>, oral), 2020.
+            [<a href="publications/HEBR_WWW20.pdf">PDF</a>]
+        </li>
     </ul>
     <h2>Selected Awards</h2>
     <ul>
-        <li> 2019, awarded JiangZhen Scholarship(<em>Top 5%</em>)</li>
-        <li> 2017, awarded Excellent Student Second-Class Scholarship(<em>Top 10%</em>)</li>
-        <li> 2017, awarded Alibaba Scholarship(<em>Top 10%</em>)</li>
-        <li> 2016, awarded National Scholarship(<em>Top 1%</em>)</li>
-        <li> 2016, awarded Excellent Student First-Class Scholarship(<em>Top 5%</em>)</li>
+<!--         <li> 2020, awarded Lexin ShengWen Scholarship (<em>Top 10%</em>)</li> -->
+        <li> 2020, 2019, awarded JiangZhen Scholarship (<em>Top 5%</em>)</li>
+        <li> 2017, awarded "ZheBao-Alibaba" Scholarship (<em>Top 10%</em>)</li>
+        <li> 2017, awarded Excellent Student Second-Class Scholarship (<em>Top 10%</em>)</li>
+        <li> 2016, awarded National Scholarship (<em>Top 1%</em>)</li>
+        <li> 2016, awarded Excellent Student First-Class Scholarship (<em>Top 5%</em>)</li>
     </ul>
     <h2>Contact Me</h2>
-    <p>Email: petecheng@zju.edu.cn</p>
+    <p>Email: chengziqiang@bytedance.com, petecheng@zju.edu.cn</p>
     <p>Wechat: czq199608</p>
     
 </main>
